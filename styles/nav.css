@@ -23,14 +23,14 @@ body{
 }
 .btn-main{
     border-radius: 5px;
-    background: crimson;
-    border: 0;
+    background: rgb(240, 103, 133);
+    border: 30px;
     font-size: 20px;
-    color: white;
+    color: rgb(17, 17, 17);
     font-weight: 700;
-    pad: 15px 35px;
+    pad: 15px 30px;
+    
 }
-
 /*nav releted style*/
 
 nav{
@@ -84,11 +84,87 @@ nav a{
     color: blue;
 }
 /* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section */
 .about{
     padding: 130px;
     border-radius: 10px;
-    margin: 130px 0;
+    margin: 130px 200px;
     background-color: darkgrey;
+}
+.about-ic{
+    display: flex;
+    justify-content: space-around;
+}
+.about-i-data{
+    text-align: center;
+}
+#widd{
+    padding: 30px 150px;
+}
+/* skills style */
+.skills-con{
+    display: flex;
+     gap: 20px;
+}
+.skills{
+    padding: 30px;
+    margin: 160px;
+    background-color:rgb(41, 153, 153);
+    box-shadow: chocolate 10px 10px 10px;
+}
+.skills-d{
+    color :azure;
+}
+/* resume section */
+.r-c-t{
+    font-size: 75px;
+    font-weight: 800;
+    background-color: rgb(144, 236, 206);
+    margin: 0 500px 20px 10px;
+    box-shadow: 10px 10px 10px red;
+    color: darkmagenta;
+    font-style:italic;
+}
+.dnld{
+    text-align: center;
+    margin-top: 150px;
+}
+.r-hding{
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: blueviolet;
+}
+.r-sub-hding{
+    font-size: 20px;
+    margin: 0 250px 0 75px;
+    color: blue;
+}
+.r-item{
+    margin: 20px 450px 0 10px;
+    background-color:rgb(175, 194, 230);
+    box-shadow:blueviolet 10px 10px 10px;
+}
+/* footer style */
+footer {
+    display: flex;
+    padding: 130px 200px 0 50px;
+    gap: 100px;
+    background-color: floralwhite;
+}
+.ftr-item{
+    width: 50%;
+}
+/* form style */
+.input, input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px 35px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 5px;
 }
